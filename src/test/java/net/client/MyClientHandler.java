@@ -1,5 +1,6 @@
 package net.client;
 
+import com.bluemobi.imspeak.net.data.Packet;
 import org.apache.mina.core.service.IoHandlerAdapter;
 import org.apache.mina.core.session.IdleStatus;
 import org.apache.mina.core.session.IoSession;
@@ -10,6 +11,7 @@ public class MyClientHandler extends IoHandlerAdapter {
 	public void exceptionCaught(IoSession session, Throwable cause)
 			throws Exception {
 		System.out.println("exceptionCaught");
+        cause.printStackTrace();
 	}
 
 	@Override

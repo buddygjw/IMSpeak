@@ -9,7 +9,7 @@
 	</appender>
 
 	<appender name="INFO" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="File" value="${catalina.base}/logs/yunyuhome.log" />
+		<param name="File" value="${catalina.base}/logs/imspeak.log" />
 		<param name="Append" value="true" />
 		<param name="Encoding" value="UTF-8" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
@@ -23,7 +23,7 @@
 	</appender>
 
 	<appender name="WARN" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="File" value="${catalina.base}/logs/yunyuhome.log" />
+		<param name="File" value="${catalina.base}/logs/imspeak.log" />
 		<param name="Append" value="true" />
 		<param name="Encoding" value="UTF-8" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
@@ -37,7 +37,7 @@
 	</appender>
 
 	<appender name="ERROR" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="File" value="${catalina.base}/logs/yunyuhome.log" />
+		<param name="File" value="${catalina.base}/logs/imspeak.log" />
 		<param name="Append" value="true" />
 		<param name="Encoding" value="UTF-8" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
@@ -51,7 +51,7 @@
 	</appender>
 
 	<appender name="ERROR" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="File" value="${catalina.base}/logs/yunyuhome.log" />
+		<param name="File" value="${catalina.base}/logs/imspeak.log" />
 		<param name="Append" value="true" />
 		<param name="Encoding" value="UTF-8" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />

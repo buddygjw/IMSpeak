@@ -20,7 +20,7 @@ public class MyTextLineEncoder implements ProtocolEncoder {
 			throws Exception {
 		String s =null;
 		if (message instanceof String) {
-			s = (String) message;
+			s = ((String) message);
 		}
 		if (s != null) {
 			CharsetEncoder charsetEndoer = (CharsetEncoder)session.getAttribute("encoder");

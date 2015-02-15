@@ -20,7 +20,7 @@ public class SocketClient {
 		BufferedWriter writer = null;
 		Socket socket = null;
 		try {
-			socket = new Socket("127.0.0.1", 9898);
+			socket = new Socket("127.0.0.1", 5222);
 			reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			writer = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 			inputReader = new BufferedReader(new InputStreamReader(System.in));

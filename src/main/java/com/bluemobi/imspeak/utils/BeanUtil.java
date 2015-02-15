@@ -11,6 +11,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class BeanUtil implements ApplicationContextAware {
 
+    public BeanUtil(){
+        System.out.println("hello-------------------------BeanUtil");
+    }
+
+
     private static ApplicationContext applicationContext;
 
     public static Object getBean(String beanName) {
