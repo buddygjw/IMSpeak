@@ -1,4 +1,4 @@
-package com.bluemobi.imspeak.utils;
+package imserver.bluemobi.imspeak.utils;
 
 import com.bluemobi.imspeak.utils.gson.DmsExclusionStrategy;
 import com.google.gson.ExclusionStrategy;

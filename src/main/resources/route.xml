@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<route>
+	<requests>
+		<request> <!-- 心跳 -->
+			<action-class>com.bluemobi.imspeak.net.action.Monitor</action-class>
+			<method>heartbeat</method>
+			<request-type>1</request-type>
+			<response-type>2</response-type>
+			<params>
+				<String>${channel.remoteAddress}</String>
+				<int>version</int>
+			</params>
+			<filters>
+			</filters>
+		</request>
+
+		
+	</requests>
+</route>

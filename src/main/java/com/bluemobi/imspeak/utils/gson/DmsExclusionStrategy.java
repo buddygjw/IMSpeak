@@ -1,6 +1,5 @@
 package com.bluemobi.imspeak.utils.gson;
 
-import com.bluemobi.yunyuhome.annotation.Exclude;
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 
@@ -52,10 +51,6 @@ public class DmsExclusionStrategy implements ExclusionStrategy {
     public boolean shouldSkipField(FieldAttributes f) {
         if (this.excludeFields == null) {
             return false;
-        }
-
-        if(f.getAnnotation(Exclude.class)!=null){
-            return true;
         }
 
         for (String field : this.excludeFields) {

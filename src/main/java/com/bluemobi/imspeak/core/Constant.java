@@ -1,4 +1,4 @@
-package com.bluemobi.imspeak.core;
+package imserver.bluemobi.imspeak.core;
 
 /**
  * Created by wangbin on 14-10-31.
@@ -12,6 +12,7 @@ public interface Constant {
     public static final int COMMAND_LOGIN = 101;
 
     public static final int COMMAND_MESSAGE = 201;
+
 
 
 }
