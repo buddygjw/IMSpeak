@@ -1,4 +1,4 @@
-package imserver.bluemobi.imspeak.core;
+package com.bluemobi.imspeak.core;
 
 /**
  * Created by wangbin on 14-10-31.

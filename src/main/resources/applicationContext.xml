@@ -23,7 +23,6 @@
     <context:component-scan base-package="com.bluemobi.imspeak" />
 
     <context:annotation-config/>
-    <bean id="jaxenException" class="org.jaxen.JaxenException" />
 
     <bean id="ioAcceptor" class="com.bluemobi.imspeak.net.MainServer" init-method="imServerInit"/>
 
